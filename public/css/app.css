@@ -17259,7 +17259,7 @@ header nav div .btnBlack {
   padding: 10px;
   background-color: black;
   border-radius: 3px;
-  border: solid 1px black;
+  border: solid 1px white;
 }
 header nav div .conex {
   padding: 9px;
@@ -17365,7 +17365,7 @@ section:nth-of-type(2) span {
 section:nth-of-type(2) .gris {
   text-decoration: line-through;
   opacity: 0.5;
-  color: black;
+  color: #b5b5b6;
 }
 section:nth-of-type(2) .sale {
   border-radius: 50%;
@@ -17473,7 +17473,7 @@ section:nth-of-type(5) {
   margin-top: 3%;
 }
 section:nth-of-type(5) .row11 {
-  background-color: #EEEDEE;
+  background-color: #D1D3D5;
   padding: 50px;
   margin-left: 10px;
   margin-right: 10px;
@@ -17520,7 +17520,7 @@ section:nth-of-type(5) .row22 .white {
   margin-top: 20px;
 }
 section:nth-of-type(5) .row33 {
-  background-color: #EEEDEE;
+  background-color: #D1D3D5;
   padding: 50px;
   margin-left: 10px;
   margin-right: 10px;
