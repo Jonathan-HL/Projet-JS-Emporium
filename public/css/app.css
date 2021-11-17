@@ -17542,4 +17542,51 @@ section:nth-of-type(5) .row33 .black {
   margin-top: 20px;
 }
 
+footer {
+  margin-top: 3%;
+  background-color: #343A40;
+  color: white;
+  text-align: start;
+}
+footer .divFooter {
+  padding: 50px;
+  margin-left: 10%;
+}
+footer .divFooter h6, footer .divFooter .h6 {
+  margin-bottom: 40px;
+  color: #dfdfdf;
+}
+footer .divFooter .div1 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+footer .divFooter .div1 p {
+  color: #4C4E51;
+}
+footer .divFooter .div2 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+footer .divFooter .div2 p {
+  color: #dfdfdf;
+}
+footer .divFooter .div3 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+footer .divFooter .div3 button {
+  padding: 5px 10px 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: #343A40;
+  color: #5e5e5e;
+  border: 1px solid #4C4E51;
+}
+footer .footerEnd {
+  background-color: black;
+  color: #4C4E51;
+  padding: 15px;
+  text-align: center;
+}
+
 /*# sourceMappingURL=app.css.map */
