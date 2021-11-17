@@ -17469,4 +17469,77 @@ section:nth-of-type(2) img[alt=shoes] {
   border: none;
 }
 
+section:nth-of-type(5) {
+  margin-top: 3%;
+}
+section:nth-of-type(5) .row11 {
+  background-color: #EEEDEE;
+  padding: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+section:nth-of-type(5) .row11 i {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+section:nth-of-type(5) .row11 h6, section:nth-of-type(5) .row11 .h6 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+section:nth-of-type(5) .row11 .black {
+  padding: 5px 10px 5px 10px;
+  background-color: #3B4147;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  margin-top: 20px;
+}
+section:nth-of-type(5) .row22 {
+  background-color: #DD4545;
+  padding: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+section:nth-of-type(5) .row22 i {
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: white;
+}
+section:nth-of-type(5) .row22 h6, section:nth-of-type(5) .row22 .h6 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+section:nth-of-type(5) .row22 .white {
+  padding: 5px 10px 5px 10px;
+  background-color: white;
+  color: black;
+  border-radius: 3px;
+  border: none;
+  margin-top: 20px;
+}
+section:nth-of-type(5) .row33 {
+  background-color: #EEEDEE;
+  padding: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+section:nth-of-type(5) .row33 i {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+section:nth-of-type(5) .row33 h6, section:nth-of-type(5) .row33 .h6 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+section:nth-of-type(5) .row33 .black {
+  padding: 5px 10px 5px 10px;
+  background-color: #3B4147;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  margin-top: 20px;
+}
+
 /*# sourceMappingURL=app.css.map */
