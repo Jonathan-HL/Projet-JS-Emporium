@@ -17444,4 +17444,29 @@ section:nth-of-type(2) img[alt=shoes] {
   padding-right: 10px;
 }
 
+.img4 {
+  margin-top: 5%;
+  background-image: url(../img/cta-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+}
+.img4 h2, .img4 .h2 {
+  color: white;
+  text-align: center;
+  padding-top: 20%;
+  font-size: 40px;
+}
+.img4 .btnSc3 {
+  margin-left: 45%;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  background-color: #dd4545;
+  color: white;
+  border: none;
+}
+
 /*# sourceMappingURL=app.css.map */
