@@ -9,6 +9,11 @@ let a = document.querySelectorAll("a");
 // Event Navbar
 btnMenu.addEventListener("click", () => {
     navMenu.classList.add("active");
+    backgroundBlack.addEventListener("click", () => {
+        for (i = 0; i < a.length; i++) {
+            a[i].style.color = 'black';
+        }
+    })
 })
 btnCancel.addEventListener("click", () => {
     navMenu.classList.remove("active");
