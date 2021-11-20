@@ -7,6 +7,17 @@ let backgroundWhite = document.querySelector(".btnBlanc");
 let a = document.querySelectorAll("a");
 
 // Event Navbar
+window.addEventListener("scroll", () => {
+    let navScroll = document.querySelector("nav")
+        navScroll.classList.toggle("sticky", window.scrollY > 200)
+        backgroundBlack.addEventListener("click", () => {
+            for (i = 0; i < a.length; i++) {
+                a[i].style.color = 'black';
+            }
+        })
+})
+
+// Event Navbar Burger
 btnMenu.addEventListener("click", () => {
     navMenu.classList.add("active");
     backgroundBlack.addEventListener("click", () => {
@@ -35,6 +46,7 @@ backgroundBlack.addEventListener("click", () => {
     document.querySelector(".row33 > h6").style.color = "black"
     document.querySelector(".row33 > i").style.color = "black"
 })
+
 backgroundWhite.addEventListener("click", () => {
     document.body.style.backgroundColor = "white"
     document.body.style.color = "black"

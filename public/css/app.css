@@ -17239,16 +17239,33 @@ body {
 header h1, header .h1 {
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 50px;
+}
+header .sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  background-color: white;
+  transition: 0.6s;
+  opacity: 0.9;
+  z-index: 10;
+}
+header .navLogo {
+  display: none;
+}
+header .sticky .navLogo {
+  display: block;
 }
 header .navbar {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 5%;
 }
 header .navbar .nav-list {
   display: inline-flex;
-  margin-left: 20%;
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   header .navbar .nav-list {
@@ -17272,6 +17289,7 @@ header .navbar .nav-list .icon {
 }
 header .navbar .nav-list li {
   list-style: none;
+  margin-top: 20px;
 }
 header .navbar .nav-list a {
   color: black;
@@ -17512,7 +17530,7 @@ section .divImg {
 section .divImg:hover .sc2btn {
   visibility: visible;
   margin-bottom: 4px;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
 section .divImg .sc2btn {
   position: absolute;
@@ -17727,6 +17745,11 @@ section .divImg img[alt=shoes] {
 
 section:nth-of-type(4) {
   text-align: center;
+}
+@media screen and (max-width: 600px) {
+  section:nth-of-type(4) {
+    display: none;
+  }
 }
 section:nth-of-type(4) h4, section:nth-of-type(4) .h4 {
   margin-top: 3%;
