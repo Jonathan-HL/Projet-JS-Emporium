@@ -30,7 +30,7 @@ section
         &:hover
             .sc2btn
                 visibility: visible
-                margin-bottom: 4px
+                margin-bottom: 2px
                 transition: all 0.5s ease
         .sc2btn
             position: absolute
@@ -48,6 +48,10 @@ section
             padding-bottom: 20px
             border: none
             opacity: 0.9
+            @media screen and (max-width:600px)
+                padding-right: 5px
+                padding-top: 10px
+                padding-bottom: 10px
         .btnRouge
             background-color: #DD4545
             color: white
@@ -56,13 +60,17 @@ section
             padding-bottom: 20px
             border: none
             opacity: 0.9
-        .row1
-            margin-right: 10px
-            margin-left: 10px
             @media screen and (max-width:600px)
-                flex-direction: column    
-            @media screen and (min-width:768px) and (max-width:1024px)
-                flex-direction: column
+                padding-right: 5px
+                padding-top: 10px
+                padding-bottom: 10px
+    .row1
+        margin-right: 10px
+        margin-left: 10px
+        @media screen and (max-width:600px)
+            flex-direction: column    
+        @media screen and (min-width:768px) and (max-width:1024px)
+            flex-direction: column
 
         img[alt="luxury"]
             width: 100%
@@ -88,14 +96,14 @@ section
             @media screen and (max-width:600px)
                 height: 100%
 
-        .row2
-            margin-top: 30px
-            margin-right: 10px
-            margin-left: 10px
-            @media screen and (max-width:600px)
-                flex-direction: column
-            @media screen and (min-width:768px) and (max-width:1024px)
-                flex-direction: column
+    .row2
+        margin-top: 30px
+        margin-right: 10px
+        margin-left: 10px
+        @media screen and (max-width:600px)
+            flex-direction: column
+        @media screen and (min-width:768px) and (max-width:1024px)
+            flex-direction: column
 
         img[alt="bag"]
             width: 100%
@@ -121,14 +129,14 @@ section
             @media screen and (max-width:600px)
                 height: 100%
 
-        .row3
-            margin-top: 30px
-            margin-right: 10px
-            margin-left: 10px
-            @media screen and (max-width:600px)
-                flex-direction: column
-            @media screen and (min-width:768px) and (max-width:1024px)
-                flex-direction: column
+    .row3
+        margin-top: 30px
+        margin-right: 10px
+        margin-left: 10px
+        @media screen and (max-width:600px)
+            flex-direction: column
+        @media screen and (min-width:768px) and (max-width:1024px)
+            flex-direction: column
 
         img[alt="morder-sofa"]
             width: 100%

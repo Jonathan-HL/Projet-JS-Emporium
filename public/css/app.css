@@ -17529,7 +17529,7 @@ section .divImg {
 }
 section .divImg:hover .sc2btn {
   visibility: visible;
-  margin-bottom: 4px;
+  margin-bottom: 2px;
   transition: all 0.5s ease;
 }
 section .divImg .sc2btn {
@@ -17550,6 +17550,13 @@ section .divImg .btnNoir {
   border: none;
   opacity: 0.9;
 }
+@media screen and (max-width: 600px) {
+  section .divImg .btnNoir {
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
 section .divImg .btnRouge {
   background-color: #DD4545;
   color: white;
@@ -17559,146 +17566,153 @@ section .divImg .btnRouge {
   border: none;
   opacity: 0.9;
 }
-section .divImg .row1 {
+@media screen and (max-width: 600px) {
+  section .divImg .btnRouge {
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+section .row1 {
   margin-right: 10px;
   margin-left: 10px;
 }
 @media screen and (max-width: 600px) {
-  section .divImg .row1 {
+  section .row1 {
     flex-direction: column;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  section .divImg .row1 {
+  section .row1 {
     flex-direction: column;
   }
 }
-section .divImg img[alt=luxury] {
+section .row1 img[alt=luxury] {
   width: 100%;
   height: 40vh;
   padding-left: 10px;
   padding-right: 10px;
 }
 @media screen and (max-width: 600px) {
-  section .divImg img[alt=luxury] {
+  section .row1 img[alt=luxury] {
     height: 100%;
   }
 }
-section .divImg img[alt=gloves] {
+section .row1 img[alt=gloves] {
   width: 100%;
   height: 40vh;
   padding-left: 10px;
   padding-right: 10px;
 }
 @media screen and (max-width: 600px) {
-  section .divImg img[alt=gloves] {
+  section .row1 img[alt=gloves] {
     height: 100%;
   }
 }
-section .divImg img[alt=cups] {
+section .row1 img[alt=cups] {
   width: 100%;
   height: 40vh;
   padding-left: 10px;
   padding-right: 10px;
 }
 @media screen and (max-width: 600px) {
-  section .divImg img[alt=cups] {
+  section .row1 img[alt=cups] {
     height: 100%;
   }
 }
-section .divImg .row2 {
+section .row2 {
   margin-top: 30px;
   margin-right: 10px;
   margin-left: 10px;
 }
 @media screen and (max-width: 600px) {
-  section .divImg .row2 {
+  section .row2 {
     flex-direction: column;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  section .divImg .row2 {
+  section .row2 {
     flex-direction: column;
   }
 }
-section .divImg img[alt=bag] {
+section .row2 img[alt=bag] {
   width: 100%;
   height: 40vh;
   padding-left: 10px;
   padding-right: 10px;
 }
 @media screen and (max-width: 600px) {
-  section .divImg img[alt=bag] {
+  section .row2 img[alt=bag] {
     height: 100%;
   }
 }
-section .divImg img[alt=T-Shirt] {
+section .row2 img[alt=T-Shirt] {
   width: 100%;
   height: 40vh;
   padding-left: 10px;
   padding-right: 10px;
 }
 @media screen and (max-width: 600px) {
-  section .divImg img[alt=T-Shirt] {
+  section .row2 img[alt=T-Shirt] {
     height: 100%;
   }
 }
-section .divImg img[alt=plates] {
+section .row2 img[alt=plates] {
   width: 100%;
   height: 40vh;
   padding-left: 10px;
   padding-right: 10px;
 }
 @media screen and (max-width: 600px) {
-  section .divImg img[alt=plates] {
+  section .row2 img[alt=plates] {
     height: 100%;
   }
 }
-section .divImg .row3 {
+section .row3 {
   margin-top: 30px;
   margin-right: 10px;
   margin-left: 10px;
 }
 @media screen and (max-width: 600px) {
-  section .divImg .row3 {
+  section .row3 {
     flex-direction: column;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  section .divImg .row3 {
+  section .row3 {
     flex-direction: column;
   }
 }
-section .divImg img[alt=morder-sofa] {
+section .row3 img[alt=morder-sofa] {
   width: 100%;
   height: 40vh;
   padding-left: 10px;
   padding-right: 10px;
 }
 @media screen and (max-width: 600px) {
-  section .divImg img[alt=morder-sofa] {
+  section .row3 img[alt=morder-sofa] {
     height: 100%;
   }
 }
-section .divImg img[alt=bed] {
+section .row3 img[alt=bed] {
   width: 100%;
   height: 40vh;
   padding-left: 10px;
   padding-right: 10px;
 }
 @media screen and (max-width: 600px) {
-  section .divImg img[alt=bed] {
+  section .row3 img[alt=bed] {
     height: 100%;
   }
 }
-section .divImg img[alt=shoes] {
+section .row3 img[alt=shoes] {
   width: 100%;
   height: 40vh;
   padding-left: 10px;
   padding-right: 10px;
 }
 @media screen and (max-width: 600px) {
-  section .divImg img[alt=shoes] {
+  section .row3 img[alt=shoes] {
     height: 100%;
   }
 }
