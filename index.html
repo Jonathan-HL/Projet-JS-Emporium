@@ -26,7 +26,7 @@
                 <div class="navBtn">
                     <button class="btnBlanc"></button>
                     <button class="btnBlack"></button>
-                    <button class="conex">CONNEXION</button>
+                    <button class="conex">Connexion</button>
                 </div>
             </ul>
             <div class="btn-menu">
@@ -43,9 +43,42 @@
         <div>
             <img src="./public/img/slider-1.jpg" alt="slider1">
         </div>
-    </div>    
+    </div>
+    <div id="popUp">
+        <div class="sec-container">
+            <div class="form-wrapper">
+                <div class="card">
+                        <img src="./public/img/logo.png" alt="mini-logo">
+                        <div class="icon-x">
+                            <i class="fas fa-times"></i>
+                        </div>
+                        <div class="card-header">
+                            <div id="log" class="form-header active">Se connecter</div>
+                            <div id="inscrip" class="form-header">S' inscrire</div>
+                        </div>
+                        <div class="card-body" id="formContainer">
+                            <!-- form Login -->
+                            <form id="formLogin">
+                                <input type="text" class="form-control" placeholder="Nom d'utilisateur...">
+                                <input type="password" class="form-control" placeholder="Mot de passe...">
+                                <button class="btn-conxins">Connexion</button>
+                            </form>
+                            <!-- Form Inscription -->
+                            <form id="formInscrip" class="toggleForm" >
+                                <input type="text" class="form-control" placeholder="Nom d'utilisateur...">
+                                <input type="password" class="form-control" placeholder="Mot de passe...">
+                                <input type="password" class="form-control" placeholder="Confirmer mode de passe">
+                                <button class="btn-conxins">Inscription</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
     <!-- Fin Header -->
+    <!-- Debut Conex / inscription -->
+    <!-- Fin Conex / inscription -->
     <!-- Debut Section 1 -->
     <section class="d-flex">
         <div class="img1">
@@ -324,6 +357,7 @@
     <!-- Fin Big Div Footer -->
         <div class="footerEnd"> <p>COPYRIGHT 2020 GOODLAYERS, ALL RIGHT RESERVED</p></div>
     </footer>
+    <!-- Fin Footer -->
     <script src="./public/js/main.js"></script>
 </body>
 </html>

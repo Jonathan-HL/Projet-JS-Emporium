@@ -31,7 +31,7 @@ header
                 font-size: 30px
                 cursor: pointer
                 position: absolute
-                right: 90px
+                right: 40px
                 top: 20px
                 display: none
                 @media screen and (max-width:600px)
@@ -66,8 +66,9 @@ header
                 border: solid 1px white
             .conex
                 padding: 9px
-                background-color: #6C757D
+                background-color: #DD4545
                 color: white
+                border: none
     .fond
         background-color: #F3F3F3
         margin-top: 3%
@@ -90,20 +91,100 @@ header
             padding: 15px 30px 15px 30px 
             border-radius: 30px
             border: none
+    #popUp
+        display: flex
+        justify-content: center
+        align-items: center
+        margin: 50px 0
+        position: fixed
+        left: 35%
+        top: 5%
+        z-index: 20
+        .form-wrapper
+            display: flex
+            justify-content: center
+            align-items: center
+            flex: auto
+        .form-wrapper .card
+            width: 360px
+            padding: 20px
+            background-color: #DD4545
+            display: none
+        .card.show
+            display: flex
+            .card-header
+                display: flex
+                justify-content: space-evenly
+                align-items: center
+                color: white
+                margin: 20px 20px 0
+                font-size: 1.1rem
+                box-shadow: 3px 3px 10px black
+                border-radius: 50px
+            .card-header .form-header
+                flex: 50%
+                text-align: center
+                padding: 10px 0
+                border: 1px solid transparent
+                border-radius: 50px
+                // désactiv le selec text dinguerie
+                user-select: none
+                cursor: pointer
+            .card-header .form-header.active
+                border: 1px solid white
+                padding: 15px 0
+            .card-body
+                display: flex
+                flex-wrap: nowrap
+                padding: 40px 0
+                text-align: center
+                form
+                    flex: 0 0 100%
+                .toggleForm
+                    visibility: hidden
+                    opacity: 0
+                    transition: opacity 0.3s, visibility 0.3s
+                .form-control
+                    width: 100%
+                    border: none
+                    border-bottom: 1px solid black
+                    color: white
+                    background: none
+                    outline: none
+                    padding: 10px 5px
+                    margin-bottom: 20px
+                    &::placeholder
+                        color: white
+                .btn-conxins
+                    box-shadow: 3px 3px 10px black
+                    border: 1px solid white
+                    padding: 1rem 3rem
+                    background-color: #DD4545 
+                    color: white
+                    border-radius: 50px
+                    margin-top: 1rem
+                    font-size: 1rem
+            .icon-x
+                color: white
+                position: absolute 
+                left: 330px
+                top: 0px
+                font-size: 25px
+                cursor: pointer
     @media screen and (max-width:600px)
         .navbar .nav-list
                 position: fixed
                 top: 0
                 left: -200%
                 height: 80vh
-                width: 100%
+                width: 60%
                 max-width: 400px
                 background-color: white
                 display: block
                 padding: 40px 0px
                 text-align: start
                 z-index: 1
-                transition: all 0.2s ease
+                transition: all 1s ease
         .navbar .nav-list.active
             left: 0%
         .navbar .nav-list li

@@ -17277,7 +17277,7 @@ header .navbar .nav-list .icon {
   font-size: 30px;
   cursor: pointer;
   position: absolute;
-  right: 90px;
+  right: 40px;
   top: 20px;
   display: none;
 }
@@ -17325,8 +17325,9 @@ header .navbar .navBtn .btnBlack {
 }
 header .navbar .navBtn .conex {
   padding: 9px;
-  background-color: #6C757D;
+  background-color: #DD4545;
   color: white;
+  border: none;
 }
 header .fond {
   background-color: #F3F3F3;
@@ -17354,20 +17355,113 @@ header .fond .slItem {
   border-radius: 30px;
   border: none;
 }
+header #popUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+  position: fixed;
+  left: 35%;
+  top: 5%;
+  z-index: 20;
+}
+header #popUp .form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: auto;
+}
+header #popUp .form-wrapper .card {
+  width: 360px;
+  padding: 20px;
+  background-color: #DD4545;
+  display: none;
+}
+header #popUp .card.show {
+  display: flex;
+}
+header #popUp .card.show .card-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  margin: 20px 20px 0;
+  font-size: 1.1rem;
+  box-shadow: 3px 3px 10px black;
+  border-radius: 50px;
+}
+header #popUp .card.show .card-header .form-header {
+  flex: 50%;
+  text-align: center;
+  padding: 10px 0;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  user-select: none;
+  cursor: pointer;
+}
+header #popUp .card.show .card-header .form-header.active {
+  border: 1px solid white;
+  padding: 15px 0;
+}
+header #popUp .card.show .card-body {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 40px 0;
+  text-align: center;
+}
+header #popUp .card.show .card-body form {
+  flex: 0 0 100%;
+}
+header #popUp .card.show .card-body .toggleForm {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+header #popUp .card.show .card-body .form-control {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  color: white;
+  background: none;
+  outline: none;
+  padding: 10px 5px;
+  margin-bottom: 20px;
+}
+header #popUp .card.show .card-body .form-control::placeholder {
+  color: white;
+}
+header #popUp .card.show .card-body .btn-conxins {
+  box-shadow: 3px 3px 10px black;
+  border: 1px solid white;
+  padding: 1rem 3rem;
+  background-color: #DD4545;
+  color: white;
+  border-radius: 50px;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+header #popUp .card.show .icon-x {
+  color: white;
+  position: absolute;
+  left: 330px;
+  top: 0px;
+  font-size: 25px;
+  cursor: pointer;
+}
 @media screen and (max-width: 600px) {
   header .navbar .nav-list {
     position: fixed;
     top: 0;
     left: -200%;
     height: 80vh;
-    width: 100%;
+    width: 60%;
     max-width: 400px;
     background-color: white;
     display: block;
     padding: 40px 0px;
     text-align: start;
     z-index: 1;
-    transition: all 0.2s ease;
+    transition: all 1s ease;
   }
   header .navbar .nav-list.active {
     left: 0%;
@@ -17530,7 +17624,7 @@ section .divImg {
 section .divImg:hover .sc2btn {
   visibility: visible;
   margin-bottom: 2px;
-  transition: all 0.5s ease;
+  transition: all 0.8s ease;
 }
 section .divImg .sc2btn {
   position: absolute;
@@ -17539,12 +17633,12 @@ section .divImg .sc2btn {
   visibility: hidden;
   justify-content: center;
   align-items: center;
-  transition: all 0.4s ease;
+  transition: all 0.3s ease;
 }
 section .divImg .btnNoir {
   background-color: black;
   color: white;
-  padding-right: 31px;
+  padding-right: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
   border: none;
@@ -17560,7 +17654,7 @@ section .divImg .btnNoir {
 section .divImg .btnRouge {
   background-color: #DD4545;
   color: white;
-  padding-right: 31px;
+  padding-right: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
   border: none;
