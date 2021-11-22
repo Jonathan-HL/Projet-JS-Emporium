@@ -12,6 +12,7 @@ let forInscrip = document.querySelector("#formInscrip")
 let forRegistre = document.querySelector("#inscrip")
 let formContainer = document.querySelector("#formContainer")
 let cancelPopup = document.querySelector(".icon-x")
+
 // Mes Functions
 let aBlack = () => {
     a.forEach(el => {
@@ -41,7 +42,6 @@ btnCancel.addEventListener("click", () => {
 })
 
 // Mes events btn Black et White
-
 backgroundBlack.addEventListener("click", () => {
     aRed()
     document.body.style.backgroundColor = "black"
@@ -101,3 +101,5 @@ forRegistre.addEventListener("click", () => {
             loginForm.classList.add("toggleForm");
     }
 })
+
+// Event Sliders
