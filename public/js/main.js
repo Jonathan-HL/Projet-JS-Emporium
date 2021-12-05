@@ -5,14 +5,14 @@ let btnCancel = document.querySelector(".btn-x");
 let backgroundBlack = document.querySelector(".btnBlack");
 let backgroundWhite = document.querySelector(".btnBlanc");
 let a = document.querySelectorAll("a");
-let conex = document.querySelector(".conex")
-let loginForm  = document.querySelector("#formLogin")
-let forLoginn = document.querySelector("#log")
-let forInscrip = document.querySelector("#formInscrip")
-let forRegistre = document.querySelector("#inscrip")
-let formContainer = document.querySelector("#formContainer")
-let cancelPopup = document.querySelector(".icon-x")
-
+let conex = document.querySelector(".conex");
+let loginForm  = document.querySelector("#formLogin");
+let forLoginn = document.querySelector("#log");
+let forInscrip = document.querySelector("#formInscrip");
+let forRegistre = document.querySelector("#inscrip");
+let formContainer = document.querySelector("#formContainer");
+let cancelPopup = document.querySelector(".icon-x");
+let navBtn = document.querySelectorAll(".manual-btn");
 // Mes Functions
 let aBlack = () => {
     a.forEach(el => {
@@ -24,6 +24,19 @@ let aRed= () => {
     a.forEach(el => {
         el.style.color = "#DD4545"
     });
+}
+let navBtnRed = () => {
+    navBtn.forEach(el => {
+        el.style.borderColor ="#DD4545"
+    })
+}
+let navBtnBlack = () => {
+    navBtn.forEach(el => {
+        el.style.borderColor ="black"
+    })
+}
+let noScroll = () => {
+    window.scrollTo(0,0);
 }
 
 // Event Navbar responsive
@@ -55,6 +68,7 @@ backgroundBlack.addEventListener("click", () => {
     document.querySelector(".row33 > p").style.color = "black"
     document.querySelector(".row33 > h6").style.color = "black"
     document.querySelector(".row33 > i").style.color = "black"
+    navBtnRed()
 })
 
 backgroundWhite.addEventListener("click", () => {
@@ -63,6 +77,7 @@ backgroundWhite.addEventListener("click", () => {
     document.body.style.color = "black"
     document.querySelector(".btn-menu").style.color = "black"
     aBlack()
+    navBtnBlack()
 })
 
 // Event Navbar fixed
