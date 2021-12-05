@@ -17461,7 +17461,7 @@ header #popUp .card.show .icon-x {
     position: fixed;
     top: 0;
     left: -200%;
-    height: 80vh;
+    height: 100vh;
     width: 60%;
     max-width: 400px;
     background-color: white;
@@ -17882,8 +17882,8 @@ section:nth-of-type(4) h4, section:nth-of-type(4) .h4 {
   margin-bottom: 3%;
 }
 section:nth-of-type(4) .slider {
-  width: 800px;
-  height: 500px;
+  width: 750px;
+  height: 300px;
   border-radius: 10px;
   overflow: hidden;
   margin: auto;
@@ -17943,8 +17943,8 @@ section:nth-of-type(4) .mini-sale {
   cursor: default;
 }
 section:nth-of-type(4) img[alt=sofa] {
-  height: 400px;
-  width: 800px;
+  height: 200px;
+  width: 250px;
 }
 @media screen and (max-width: 600px) {
   section:nth-of-type(4) img[alt=sofa] {
@@ -17953,8 +17953,8 @@ section:nth-of-type(4) img[alt=sofa] {
   }
 }
 section:nth-of-type(4) img[alt=mini-gloves] {
-  height: 400px;
-  width: 800px;
+  height: 200px;
+  width: 250px;
 }
 @media screen and (max-width: 600px) {
   section:nth-of-type(4) img[alt=mini-gloves] {
@@ -17963,8 +17963,8 @@ section:nth-of-type(4) img[alt=mini-gloves] {
   }
 }
 section:nth-of-type(4) img[alt=cupss] {
-  height: 400px;
-  width: 800px;
+  height: 200px;
+  width: 250px;
 }
 @media screen and (max-width: 600px) {
   section:nth-of-type(4) img[alt=cupss] {
@@ -17973,8 +17973,8 @@ section:nth-of-type(4) img[alt=cupss] {
   }
 }
 section:nth-of-type(4) img[alt=bagg] {
-  height: 400px;
-  width: 800px;
+  height: 200px;
+  width: 250px;
 }
 @media screen and (max-width: 600px) {
   section:nth-of-type(4) img[alt=bagg] {
@@ -17983,8 +17983,8 @@ section:nth-of-type(4) img[alt=bagg] {
   }
 }
 section:nth-of-type(4) img[alt=T-Shirtt] {
-  height: 400px;
-  width: 800px;
+  height: 200px;
+  width: 250px;
 }
 @media screen and (max-width: 600px) {
   section:nth-of-type(4) img[alt=T-Shirtt] {
@@ -17993,8 +17993,8 @@ section:nth-of-type(4) img[alt=T-Shirtt] {
   }
 }
 section:nth-of-type(4) img[alt=platess] {
-  height: 400px;
-  width: 800px;
+  height: 200px;
+  width: 250px;
 }
 @media screen and (max-width: 600px) {
   section:nth-of-type(4) img[alt=platess] {
@@ -18003,11 +18003,31 @@ section:nth-of-type(4) img[alt=platess] {
   }
 }
 section:nth-of-type(4) img[alt=morder-sofa] {
-  height: 400px;
-  width: 800px;
+  height: 200px;
+  width: 250px;
 }
 @media screen and (max-width: 600px) {
   section:nth-of-type(4) img[alt=morder-sofa] {
+    height: 400px;
+    width: 400px;
+  }
+}
+section:nth-of-type(4) img[alt=bedd] {
+  height: 200px;
+  width: 250px;
+}
+@media screen and (max-width: 600px) {
+  section:nth-of-type(4) img[alt=bedd] {
+    height: 400px;
+    width: 400px;
+  }
+}
+section:nth-of-type(4) img[alt=shoess] {
+  height: 200px;
+  width: 250px;
+}
+@media screen and (max-width: 600px) {
+  section:nth-of-type(4) img[alt=shoess] {
     height: 400px;
     width: 400px;
   }
@@ -18016,22 +18036,10 @@ section:nth-of-type(4) #r1:checked ~ .first {
   margin-left: O;
 }
 section:nth-of-type(4) #r2:checked ~ .first {
-  margin-left: -800px;
+  margin-left: -750px;
 }
 section:nth-of-type(4) #r3:checked ~ .first {
-  margin-left: -1600px;
-}
-section:nth-of-type(4) #r4:checked ~ .first {
-  margin-left: -2400px;
-}
-section:nth-of-type(4) #r5:checked ~ .first {
-  margin-left: -3200px;
-}
-section:nth-of-type(4) #r6:checked ~ .first {
-  margin-left: -4000px;
-}
-section:nth-of-type(4) #r7:checked ~ .first {
-  margin-left: -4800px;
+  margin-left: -1500px;
 }
 
 section:nth-of-type(5) {

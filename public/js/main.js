@@ -101,5 +101,3 @@ forRegistre.addEventListener("click", () => {
             loginForm.classList.add("toggleForm");
     }
 })
-
-// Event Sliders
