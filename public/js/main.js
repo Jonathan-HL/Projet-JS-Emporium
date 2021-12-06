@@ -89,10 +89,13 @@ window.addEventListener("scroll", () => {
 // Event popUp Conex / Inscription
 conex.addEventListener("click", () => {
     document.querySelector(".form-wrapper .card").classList.toggle("show")
+    document.querySelector("body").classList.toggle("stop-scrolling")
+    
 })
 
 cancelPopup.addEventListener("click", () => {
     document.querySelector(".form-wrapper .card").classList.remove("show")
+    document.querySelector("body").classList.remove("stop-scrolling")
 })
 
 forLoginn.addEventListener("click", () => {
