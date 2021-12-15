@@ -17491,6 +17491,17 @@ header #popUp .card.show .icon-x {
   }
 }
 
+.bg-assombris {
+  background-color: black;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.5;
+  display: none;
+}
+
 section:first-of-type {
   margin-top: 3%;
 }

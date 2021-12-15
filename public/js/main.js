@@ -13,6 +13,7 @@ let forRegistre = document.querySelector("#inscrip");
 let formContainer = document.querySelector("#formContainer");
 let cancelPopup = document.querySelector(".icon-x");
 let navBtn = document.querySelectorAll(".manual-btn");
+
 // Mes Functions
 let aBlack = () => {
     a.forEach(el => {
@@ -86,16 +87,20 @@ window.addEventListener("scroll", () => {
         navScroll.classList.toggle("sticky", window.scrollY > 200)
 })
 
+let assombris = document.querySelector('.bg-assombris')
 // Event popUp Conex / Inscription
 conex.addEventListener("click", () => {
     document.querySelector(".form-wrapper .card").classList.toggle("show")
     document.querySelector("body").classList.toggle("stop-scrolling")
-    
+    assombris.style.display = "block"
+    // document.querySelector("body").style.filter = "blur(2px)"
 })
 
 cancelPopup.addEventListener("click", () => {
     document.querySelector(".form-wrapper .card").classList.remove("show")
     document.querySelector("body").classList.remove("stop-scrolling")
+    assombris.style.display = "none"
+
 })
 
 forLoginn.addEventListener("click", () => {
